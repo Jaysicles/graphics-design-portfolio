@@ -49,13 +49,19 @@ h1,h2,h3,h4,h5
         color: #ffffff;
         font-weight: bold;
     }
+
+.hover-over-img 
+{
+    color:#606060;
+    font-weight: bold;
+}
 /* end all heading */
 
 /* start all section */
 #work, #about, #portfolio, #contact
     {
         padding-top: 100px;
-        padding-bottom: 120px;
+        padding-bottom: 220px;
     }
 /* end all section */
 
@@ -300,9 +306,11 @@ h1,h2,h3,h4,h5
         overflow: hidden;
         position: relative;
         margin-bottom: 30px;
+        margin-left: 50px;
     }
 #portfolio .portfolio-thumb .portfolio-overlay
     {
+        border-radius: 20px;
         background: var(--color-purple);
         top: 0;
         left: 0;
