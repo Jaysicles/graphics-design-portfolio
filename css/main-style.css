@@ -3,13 +3,17 @@
     --color-purple: #b50dbb;
     --color-white: #ffffff;
     --color-black: #000000;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
 }
+
+/* Nav bar section */
 
 body
 {
 	background: #000000;
-	color: #999;
-	font-family: 'Raleway', sans-serif;
+	color: var(--color-white);
+	font-family: var(--font-raleway);
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -56,6 +60,7 @@ h1,h2,h3,h4,h5
     color:#606060;
     font-weight: bold;
 }
+
 /* end all heading */
 
 /* start all section */
