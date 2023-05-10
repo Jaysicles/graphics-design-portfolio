@@ -7,8 +7,6 @@
     --font-raleway: 'Raleway', sans-serif;
 }
 
-/* Nav bar section */
-
 body
 {
 	background: #000000;
@@ -189,8 +187,9 @@ h1,h2,h3,h4,h5
         padding-bottom: 140px;
         text-align: center;
         border-radius: 15px;
-        margin: 7px;
+        margin: 15px;
 	}
+
 #home h1
     {
         border: 2px solid var(--color-purple);
@@ -309,6 +308,7 @@ h1,h2,h3,h4,h5
         text-align: center;
         border-radius: 15px;
         margin: 7px;
+        height:fit-content;
     }
 #portfolio h2
     {
